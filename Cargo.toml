@@ -1,0 +1,14 @@
+[package]
+name = "wgpu_fxaa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "0.12"
+
+[dev-dependencies]
+getrandom = { version = "0.2", features = ["js"] }
+meshtext = "0.2"
+pollster = "0.2.5"
+rand = "0.8.5"
+winit = "0.26"
